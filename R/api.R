@@ -7,7 +7,7 @@
 select_api <- function(where="public")
 {
 	url <- switch(where,
-		public = "http://gwas-api.mrcieu.ac.uk/",
+		public = "http://172.25.2.194/",
 		private = "http://ieu-db-interface.epi.bris.ac.uk:8082/",
 		dev1 = "http://localhost:8019/",
 		dev2 = "http://127.0.0.1:5000/"
